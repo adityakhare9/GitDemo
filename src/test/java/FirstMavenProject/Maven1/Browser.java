@@ -21,6 +21,7 @@ public class Browser {
 		ExtentReports report = new ExtentReports("C:\\Users\\khushi_Shaurya\\eclipse-workspace\\Maven1\\test-output\\ExtentReportResults.html",true);
 				
 		test = report.startTest("Browser");
+		System.out.println("Browser test maven added");
 
 	}
 	@Test
